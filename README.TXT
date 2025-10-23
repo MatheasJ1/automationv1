@@ -7,3 +7,5 @@ usually.
 If you store everything into state while youre reading from it, new and old values mix up and the behaviour of the rule changes.
 32. Using a complete array would be better as it's alot easier to access and compare. the cells update simultaneously while keeping 
 everything in the same array would make the loop alot easier to break, updates wouldn't be automatic.
+35. since there's 0 and 1 and theres 3 different positions they could be in (2 to the power 3) there's 8 possible patterns (2 power 8) = 256;
+so no not infinite.
